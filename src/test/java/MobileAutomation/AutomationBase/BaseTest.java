@@ -14,7 +14,7 @@ public class BaseTest {
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("platformVersion", "11.0");
         capabilities.setCapability("automationName", "UiAutomator2");
-        capabilities.setCapability("app", "C:/Users/Marcel/Downloads/android-apk (1)/debug/app-debug.apk");
+        capabilities.setCapability("app", "C:/Users/Marcel/Downloads/android-apk (2)/debug/app-debug.apk");
 
         driver = new AndroidDriver(capabilities);
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
